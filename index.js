@@ -1,6 +1,6 @@
 // pages/index.js
 import Footer from '@/components/Footer';
-import Navbar from '../components/Navbar';
+import Navbar from './components/Navbar';
 import { FaHeart } from 'react-icons/fa';
 
 function Home() {
