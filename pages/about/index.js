@@ -60,19 +60,20 @@ function About() {
           <div className="mb-2 mr-20">
             
             <h2 className='text-xl mb-5'>
-            I'm a frontend designer and an architect. Always obsessed with design in all its forms and up to creating. After working as an architect for 1,5 year, I realized that I wanted to be more involved with design. However, being able to respond to problems is very important to me. While thinking about these two factors, I found myself in frontend development. Having both design and analytical background made it easy for me to adapt to this field.
+            I'm a frontend developer and a designer. Always obsessed with design in all its forms and up to creating. After working as an architect more than 2 years, I discovered my interest for web development. Having both design and analytical background made it easy for me to adapt to this field.
             </h2>
 
             <h2 className='text-xl mb-5'>
-            I believe that having a multidisciplinary education enables me to have an approach problems from unexpected angles that lead to unique solutions. I think learning never ends. I'm always looking for new opportunities to improve myself. 
+            I believe that having a multidisciplinary education enables me to have an approach problems from unexpected angles that lead to unique solutions. I'm always looking for new opportunities to improve myself. 
             </h2>
 
             <h2 className='text-xl mb-5'>
-            Please do not hesitate reach me out.
+            Please do not hesitate to reach me out!
            </h2>
-           <h2 className='text-pink-500 background-transparent text-xl font-bold'>
+           <h2 className='text-pink-500 text-xl font-bold'>
            <a href="mailto:aybikeustun@gmail.com">Send Email! </a>
            </h2>
+           
 
            
           </div>
