@@ -19,7 +19,7 @@ function Home() {
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10">
               I'm Aybike
               </h1>
-              <h2 className='text-3xl sm:text-4xl md:text-3xl font-bold mb-10'>
+              <h2 className='text-3xl sm:text-4xl md:text-3xl mb-10'>
               A frontend developer and a designer. I can help you with create your own products.
               </h2><br />
               <a

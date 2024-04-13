@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-black text-white py-6">
       <div className="container mx-auto text-center flex justify-between items-center h-full w-full px-4 2xl:px-16">
-        <p>&copy; 2023 Aybike Ustun</p>
+        <p>&copy; 2023 Designed and coded by Aybike Ustun</p>
         <div className="flex items-center"> {/* Wrap icons in a flex container */}
           <a
             href="https://github.com/aybikeustun"
