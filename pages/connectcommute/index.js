@@ -14,6 +14,11 @@ import HOME from '@/public/HOME.png';
 import FINGBUSROUTES from '@/public/FINGBUSROUTES.png';
 import JOINCARPOOLING from '@/public/JOINCARPOOLING.png';
 import CREATECARPOOLING from '@/public/CREATECARPOOLING.png';
+import SHAREIP from '@/public/SHAREIP.png';
+import CONFIRMATION from '@/public/CONFIRMATION.png';
+import wooden from '@/public/wooden.PNG';
+import cp from '@/public/cp.png';
+import jp from '@/public/jp.png';
 import Link from 'next/link';
 
 const YourComponent = () => {
@@ -352,7 +357,8 @@ const YourComponent = () => {
                   </h2>
                 </div>
 
-                <div className="container mx-auto project-of-the-week grid place-content-center px-5 sm:px-10 md:px-20 2xl:px-16 ">
+      <div className="container mx-auto project-of-the-week grid place-content-center px-5 sm:px-10 md:px-20 2xl:px-16 ">
+        
         <div className='border-b border-blackColor pb-10'>
           <div className='font-bold text-2xl px-5 sm:px-10 md:px-20 mb-10'>
             Usability Study Findings
@@ -404,19 +410,15 @@ const YourComponent = () => {
       <div className="mx-auto digitalwireframes flex flex-wrap justify-center px-5 sm:px-10 md:px-20 2xl:px-16">
         <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
           <div className='font-bold pt-5'>
-          Let’s start with homepage!
+          Before Usability Test
           </div>
           <br></br>
-          <div className=''>
-          -There are 3 main uses on the home page.
+          <div className='mb-16'>
+          Create carpooling page:
           </div>
-          <div className='mb-6'>
-          -It is aimed to make the app easier to use.
-          </div>
-          <br></br>
           <div>
                 <Image
-                  src={HOME}
+                  src={CREATECARPOOLING}
                   width={500}
                   height={500}
                 />
@@ -427,19 +429,15 @@ const YourComponent = () => {
 
         <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
           <div className='font-bold pt-5'>
-          Find bus page:
+          After Usability Test
           </div>
           <br></br>
-          <div className=''>
-          -A seperate section is created for the user to reach the stops nearby.
+          <div className='mb-4'>
+          -To make carpool sections more effective "pet friendly" and "accept baggage" parts are added.
           </div>
-          <div>
-          -The aim is to personalize the app by adding favorite stops and favorite buses.
-          </div>
-          <br></br>
           <div>
                 <Image
-                  src={FINGBUSROUTES}
+                  src={cp}
                   width={500}
                   height={500}
                 />
@@ -448,11 +446,11 @@ const YourComponent = () => {
 
         <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
           <div className='font-bold pt-5'>
-          Join carpooling page:
+          Before Usability Test
           </div>
           <br></br>
-          <div className='mb-6'>
-          -The user can use the IP shared with them or can access the tools suitable for them by entering the destination directly.
+          <div className='mb-10'>
+          Join carpooling page:
           </div>
           <br></br>
           <div>
@@ -466,16 +464,15 @@ const YourComponent = () => {
 
         <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
           <div className='font-bold pt-5'>
-          Create carpooling page:
+          After Usability Test
           </div>
           <br></br>
-          <div className='mb-12'>
-          -Users can see their location and nearby vehicles on the map and the vehicles that they can use.
+          <div className='mb-10'>
+          -Arrival and time are added to refine filtering.
           </div>
-          <br></br>
           <div>
                 <Image
-                  src={CREATECARPOOLING}
+                  src={jp}
                   width={500}
                   height={500}
                 />
@@ -483,13 +480,87 @@ const YourComponent = () => {
         </div>       
       </div>
 
-      <div className='container mx-auto user-research sm:w-64 user-research mt-5 px-5 pb-5'>
-                  <h2 className="text-l text-white bg-pink-500 hover:bg-pink-600 text-center font-bold py-2 px-4 rounded-full cursor-pointer">
-                    <Link href="https://www.figma.com/proto/pVrKufeSvcjdjOJ2ZICZlj/ConnectCommute-Hi-Fi-Prototype?type=design&node-id=32-2&t=vqfAlINfu7mcAnWm-1&scaling=scale-down&page-id=2%3A34&starting-point-node-id=32%3A2&mode=design">
-                      See Prototype
-                    </Link>
-                  </h2>
-                </div>
+      <div className="container mx-auto grid px-5 sm:px-10 md:px-20 2xl:px-16 ">
+        
+        <div className=''>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 px-5 sm:px-10 md:px-20 md:gap-20 ">
+            <div className="img-container flex flex-col text-center">
+              <div className="">
+                <h3 className='font-bold'>
+                  Before Usability Test
+                </h3>
+                <br></br>
+              </div>
+            </div>
+            <div className="flex flex-col text-center">
+              <div className="mb-2 sm:mr-20">
+                <h3 className='font-bold '>
+                After Usability Test
+                </h3>
+                <br></br>
+                <h1 className='text-l'>
+                -Confirm page added to prevent users get confused before making decision.
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto mockups flex flex-wrap justify-center px-5 sm:px-10 md:px-20 2xl:px-16">
+        <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
+          <div>
+                <Image
+                  src={CREATECARPOOLING}
+                  width={500}
+                  height={500}
+                />
+              </div> 
+              
+                           
+        </div>
+
+        <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
+          <div>
+                <Image
+                  src={SHAREIP}
+                  width={500}
+                  height={500}
+                />
+              </div>
+        </div>
+
+        <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
+          <div>
+                <Image
+                  src={cp}
+                  width={500}
+                  height={500}
+                />
+              </div>
+        </div>
+
+        <div className="w-full sm:w-64 h-full m-8 justify-center text-center items-center">
+          <div>
+                <Image
+                  src={CONFIRMATION}
+                  width={500}
+                  height={500}
+                />
+              </div>
+        </div>       
+      </div>
+      
+      <div className='flex flex-wrap justify-center'>
+              <a href="https://www.figma.com/proto/pVrKufeSvcjdjOJ2ZICZlj/ConnectCommute-Hi-Fi-Prototype?type=design&node-id=32-2&t=vqfAlINfu7mcAnWm-1&scaling=scale-down&page-id=2%3A34&starting-point-node-id=32%3A2&mode=design" target="_blank" rel="noopener noreferrer" className="hover:opacity-75">
+                <Image
+                  src={wooden}
+                  width={800}
+                  height={800}
+                  className="transition duration-300 ease-in-out transform hover:scale-105"
+                />
+              </a>
+      </div>
 
       <Footer />
     </div>

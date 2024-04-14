@@ -26,7 +26,7 @@ const Navbar = () => {
                   <li className="uppercase hover:border-b text-xl">Projects</li>
                 </Link>
                         <li className="uppercase hover:border-b text-xl">
-                            <a href="https://drive.google.com/file/d/1wwpNoA44UlsB2SiM7QAZtXMLQRRF6JVs/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                            <a href="https://drive.google.com/file/d/17uUZQo6wWn_Qwm4GkUl7kM6KUFydxCKY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                         </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                     className="py-4 cursor-pointer"
                   >
                     <a
-                      href="https://drive.google.com/file/d/1wwpNoA44UlsB2SiM7QAZtXMLQRRF6JVs/view?usp=sharing"
+                      href="https://drive.google.com/file/d/17uUZQo6wWn_Qwm4GkUl7kM6KUFydxCKY/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-black hover:underline"
