@@ -21,25 +21,6 @@ function About() {
   return (
     <div className='container mx-auto h-full w-full '>
     <Navbar />
-    {/* <section className="relative">
-      <div className="relative h-[700px]">
-        <Image
-          src={Hero}
-          alt="Background Image"
-          layout="fill"
-          objectFit="cover"
-        />
-        <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsla(0,0%,0%,0)] bg-fixed">
-          <div className="flex h-full items-center justify-center">
-            <div className="px-6 text-center text-white md:px-12">
-              <h1 className="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                About Me 
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
     
     <div className="container mx-auto project-of-the-week grid place-content-center h-full w-full px-4 2xl:px-16 pt-20">
     <div className='border-b border-blackColor pb-10'>

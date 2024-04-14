@@ -64,9 +64,9 @@ const YourComponent = () => {
 
           <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
             
-            <h2 className='text-pink-500 bg-pink-100 rounded-full text-xl text-center font-bold py-2 px-1'>
+            <h2 className='text-white bg-pink-500 hover:bg-pink-600 rounded-full text-l text-center font-bold py-2 px-1'>
            <Link href='/connectcommute'>
-                  <ul className=" text-xl">View Case Study</ul>
+                  <ul className=" text-l">View Case</ul>
                 </Link>
            </h2>
           
@@ -124,7 +124,7 @@ const YourComponent = () => {
 
           <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
             
-            <h2 className='text-pink-500 bg-pink-100 rounded-full text-xl text-center font-bold py-2 px-1'>
+            <h2 className='text-white bg-pink-500 hover:bg-pink-600 rounded-full text-l text-center font-bold py-2 px-1'>
            <a href="https://crowdfunding-app-team-9-akej.vercel.app/" target="_blank" rel="noopener noreferrer">Visit the Site </a>
            </h2>
           
@@ -182,7 +182,7 @@ const YourComponent = () => {
 
           <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
             
-            <h2 className='text-pink-500 bg-pink-100 rounded-full text-xl text-center font-bold py-2 px-1'>
+            <h2 className='text-white bg-pink-500 hover:bg-pink-600 rounded-full text-l text-center font-bold py-2 px-1'>
            <a href="https://202303-prm-tr-few.github.io/movie-project-aybike-berkay-medetcan/index.html#" target="_blank" rel="noopener noreferrer">Visit the Site </a>
            </h2>
           
